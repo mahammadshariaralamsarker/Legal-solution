@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- colour customize -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-EB{
+        font-family: 'EB Garamond', serif;
+    }
+    .font-popins{
+        font-family: 'Poppins', sans-serif;
+    }
+  </style>
+    <title>Legal Solution</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+        <section class="container flex justify-center mx-auto my-8 font-EB ">
+            <div class="relative rounded-lg ">
+                <img class="bg-gradient-to-r from-cyan-500 to-blue-500 " src="images/banner.png" alt="">
+            </div>
+            <div class="w-[70%] mx-auto text-center space-y-4 absolute top-32 transform translate-x-[-48] translate-y-[-50] text-white">
+                <h1 class="font-bold text-7xl ">We Provide Effective Legal Solutions</h1>
+                <p class="text-lg font-popins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div>
+                    <input type="text" placeholder="Search your services" class="w-full max-w-xs text-xl font-popins input input-bordered" />
+                    <button class="btn ml-4 border-0 text-white text-xl w-[150px] bg-[#B68C5A]">Search</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
